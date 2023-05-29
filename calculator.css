@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cal {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 60%;
+    max-width: 80%;
+    /* border: 3px solid rgb(30, 23, 23); */
+    box-shadow: 5px 5px 5px 5px rgb(124, 123, 123);
+    /* text-align: end;
+    display: flex;
+    flex-direction: column; */
+    /* flex-direction: column; */
+}
+
+/* .cal input{
+    height: 40%;
+    width: 100%;
+} */
+
+#userinput {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 160px;
+    width: 100%;
+    text-align: right;
+    direction: ltr;
+    /* font-size: 1.3rem; */
+    border: none;
+    outline: none;
+}
+
+.las {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+}
+
+.las button {
+    /* flex-grow: 1; */
+    flex-grow: 1;
+    height: 64px;
+    border: none;
+        font-size: 1.3rem;
+
+}
+
+.las button:hover {
+    background-color: rgb(198, 196, 196);
+}
+
+#plus {
+    background-color: #e85d04;
+}
+
+#minus {
+    background-color: #f48c06;
+}
+
+#multi {
+    background-color: #faa307;
+}
+
+#divide {
+    background-color: #ffba08;
+}
+
+#ans {
+    background-color: #ffd60a;
+}
+@media screen and (max-width:400px) {
+    .cal {
+        
+        min-height: 60%;
+        max-width: 95%;
+        box-shadow: none;
+        border: 1px solid black;
+    } 
+}
